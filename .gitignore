@@ -1,0 +1,64 @@
+# ── Python ────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual Environment ──────────────────
+.venv/
+venv/
+env/
+
+# ── Dataset (too large for GitHub) ───────
+data/
+resized_train/
+*.zip
+
+# ── Model Weights (too large for GitHub) ─
+saved_models/*.pth
+
+# ── Uploaded Images ──────────────────────
+static/uploads/*
+!static/uploads/.gitkeep
+
+# ── Logs ─────────────────────────────────
+logs/
+
+# ── Temporary / Helper Scripts ───────────
+continue_training.py
+final_evaluation.py
+embed_results.py
+embed_results_inline.py
+embed_results_v2.py
+embed_results_v3.py
+embed_results_v4.py
+check_cells.py
+read_pptx.py
+prepare_dataset.py
+resume_train.py
+index.py
+index.txt
+new/
+
+# ── Training CSV ─────────────────────────
+trainLabels.csv
+training_phase1.png
+
+# ── Jupyter Notebook Checkpoints ─────────
+.ipynb_checkpoints/
+
+# ── IDE / Editor ─────────────────────────
+.vscode/
+*.code-workspace
+
+# ── OS Files ─────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── PowerPoint (optional — remove if needed)
+*.pptx
